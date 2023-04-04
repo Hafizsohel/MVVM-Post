@@ -6,7 +6,8 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_margin="10dp"
-    android:background="#FFFFFF"
+    android:background="@drawable/custom_shapes"
+
     app:cardBackgroundColor="#F3F2EF"
     >
 
@@ -26,7 +27,7 @@
             style="@style/TitleField">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edit_text_title"
+                android:id="@+id/edit_text_titleID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"/>
@@ -40,7 +41,7 @@
             style="@style/TitleField">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edit_text_body"
+                android:id="@+id/edit_text_bodyID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"/>
@@ -48,10 +49,10 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/btn_submit"
+            android:id="@+id/btn_submitID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Submit" />
+            android:text="Update" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>

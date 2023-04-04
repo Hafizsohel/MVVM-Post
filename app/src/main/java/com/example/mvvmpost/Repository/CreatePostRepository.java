@@ -37,7 +37,7 @@ public class CreatePostRepository {
                 if (response.isSuccessful()) {
                     database.createPostDao().create(response.body()); //Store into the room database
                     MliveData.postValue(response.body()); // post with internet access
-                    Toast.makeText(context, "post successful: " + response.body(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "post successful! ", Toast.LENGTH_SHORT).show();
                 }
             }
 

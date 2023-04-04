@@ -75,4 +75,6 @@ dependencies {
 
     // Testing
     androidTestImplementation "androidx.arch.core:core-testing:$rootProject.1.2.0"
+
+    implementation 'androidx.fragment:fragment:1.5.6'
 }

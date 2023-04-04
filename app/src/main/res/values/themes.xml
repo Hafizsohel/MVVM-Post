@@ -15,4 +15,34 @@
 
 
     </style>
+
+    <style name="TitleField" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextColor">@color/black</item>
+        <item name="boxBackgroundColor">#FFFFFF</item>
+        <item name="boxStrokeColor">#0027FF</item>
+    </style>
+    
+    
+    <style name="RoundedMaterialDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+<item name="shapeAppearanceOverlay">@style/CustomDialog</item>
+        <item name="colorSurface">@color/white</item>
+    </style>
+    <style name="CustomDialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18dp</item>
+
+    </style>
+
+    <style name="PopupMenuStyle" parent="">
+        <item name="android:popupBackground">#8BC34A</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <!-- Add other properties as needed -->
+    </style>
+
+
+
+
+
 </resources>
